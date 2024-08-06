@@ -1,0 +1,31 @@
+{
+  "name": "color-grids",
+  "version": "1.1.0",
+  "main": "dist.js",
+  "author": "Dima Semyushkin <git@devg.ru> (https://devg.ru)",
+  "type": "module",
+  "license": "MIT",
+  "peerDependencies": {
+    "d3-interpolate": "3",
+    "d3-scale": "4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devgru/color-grids.git"
+  },
+  "keywords": [
+    "color grids",
+    "rgb cube"
+  ],
+  "scripts": {
+    "prepack": "bun build index.js --minify --outfile=dist.js -e d3-interpolate -e d3-scale"
+  },
+  "files": [
+    "dist.js"
+  ],
+  "devDependencies": {
+    "@types/bun": "1",
+    "@types/culori": "2",
+    "prettier": "3"
+  }
+}
