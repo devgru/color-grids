@@ -1,6 +1,6 @@
 {
   "name": "color-grids",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "dist.js",
   "author": "Dima Semyushkin <git@devg.ru> (https://devg.ru)",
   "type": "module",
